@@ -1,11 +1,27 @@
 @import url('bootstrap');
 @import url('bootstrap-icons');
 
+
+
 * {
   padding: 0;
   margin: 0;
+  background-color: darkblue;
+  color: ivory;
+  font-family: 'Miranda Sans Variable', sans-serif;
 }
 
 .active {
-  background-color: blue;
+  background-color: blueviolet ;
 }
+
+nav {
+  font-size: larger;
+  a { text-decoration: none;
+  color: ivory; }
+}
+
+.card-title , .card-sub-title {
+  color: ivory;
+}
+

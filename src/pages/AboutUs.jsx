@@ -16,7 +16,7 @@ export default function AboutUs() {
         <h1 className="text-center">Il nostro Team: </h1>
         <ul className="row g-4">
         {team.map((member) => (
-            <div key={member.id} className="card col-md-6 col-lg-4 ">
+            <div key={member.id} className="card text-bg-primary col-md-6 col-lg-4 p-2 g-2">
               <img src={member.image} className="card-img-top object-fit-fill" alt={member.name} />
               <div className="card-body">
                 <h5 className="card-title">{member.name}</h5>
