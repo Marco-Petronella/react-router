@@ -8,9 +8,7 @@ export default function AboutUs() {
         fetch(apiUrl)
         .then((response) => response.json())
         .then((result) => {
-            console.log(result)
             setTeam(result)
-            console.log(team)
         })
     }, [])
     return(
