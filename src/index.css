@@ -11,6 +11,12 @@
   font-family: 'Miranda Sans Variable', sans-serif;
 }
 
+.jumbotron {
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+
+}
 .active {
   background-color: blueviolet ;
 }
