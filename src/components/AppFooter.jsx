@@ -3,14 +3,14 @@ export default function AppFooter() {
         <footer className="bg-light">
             
             
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action active"
+            <div className="list-group">
+                <a href="#" className="list-group-item list-group-item-action active"
                     >footer</a
                 >
-                <a href="#" class="list-group-item list-group-item-action"
+                <a href="#" className="list-group-item list-group-item-action"
                     >links</a
                 >
-                <a href="#" class="list-group-item list-group-item-action disabled"
+                <a href="#" className="list-group-item list-group-item-action disabled"
                     >ciao</a
                 >
             </div>

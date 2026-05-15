@@ -3,13 +3,13 @@ export default function Homepage() {
     return(
         <>
         <div className="">
-            <img className="objext-fit-fill" src={jumboImg} alt="Jumbotron" />
+            <img className="object-fit-fill" src={jumboImg} alt="Jumbotron" />
             <h1>Frieza army</h1>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Esercito di Freezer</h5>
-                <h6 class="card-subtitle mb-2 text-muted ">Vi liberiamo dalla vostra libertà o vi vendiamo il miglior pianeta a disposizione</h6>
-                <p class="card-text">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Esercito di Freezer</h5>
+                <h6 className="card-subtitle mb-2 text-muted ">Vi liberiamo dalla vostra libertà o vi vendiamo il miglior pianeta a disposizione</h6>
+                <p className="card-text">
                 L'Esercito di Freezer (フリーザ軍ぐん Furīza-gun), precedentemente noto come Esercito di Cold (コルド軍ぐん Korudo-gun)[3] e ancor prima Esercito di Chilled (チルド軍ぐん Chirudo-gun)[4], è un impero interstellare guidato dal Re Cold e in seguito da suo figlio Freezer (al quale si aggiunge Cooler, quest'ultimo solo nel lungometraggio Dragon Ball Z: Il Destino dei Saiyan).<br/>
 L'esercito schiavizza potenti razze aliene che impiega al proprio servizio, come ad esempio i Saiyan, i quali si prendono l'incarico di sterminare le popolazioni dei pianeti così che possano divenire adatti per essere venduti nel mercato planetario al miglior offerente. Nonostante rivesta un ruolo di primo piano, Re Cold non è considerato il vero leader dell'Armata, ruolo che è invece riconosciuto a Freezer. Freezer stesso non considera i suoi soldati come un'armata vera e propria, ma li vede più come un gruppo di seguaci a lui utili; allo stesso modo, i suoi soldati non lo seguono per fedeltà o ammirazione, ma solo per paura.
 azze sottomesse e coinvolte<br/><br/>
