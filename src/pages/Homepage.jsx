@@ -2,7 +2,9 @@ import jumboImg from "../assets/jumbotron.webp";
 export default function Homepage() {
   return (
     <>
+    <div id="jumbotron">
       <img className="jumbotron" src={jumboImg} alt="Jumbotron" />
+      </div>
       <div className="container">  
         <h1>Frieza army</h1>
 

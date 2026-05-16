@@ -11,11 +11,18 @@
   font-family: 'Miranda Sans Variable', sans-serif;
 }
 
+#jumbotron {
+  display: flex;
+  justify-content: center;
+}
 .jumbotron {
   border-radius: 50px;
-  width: 100%;
+  min-width: 70%;
   height: auto;
 
+}
+.logo {
+  width: 100px;
 }
 .active {
   background-color: blueviolet ;
@@ -23,8 +30,18 @@
 
 nav {
   font-size: larger;
-  a { text-decoration: none;
-  color: ivory; }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  a { 
+    
+    text-decoration: none;
+    color: ivory; 
+    border-style:solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
 }
 
 .card-title , .card-sub-title {
