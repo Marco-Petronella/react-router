@@ -48,3 +48,13 @@ nav {
   color: ivory;
 }
 
+.loader {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
