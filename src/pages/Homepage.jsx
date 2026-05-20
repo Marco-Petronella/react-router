@@ -1,7 +1,7 @@
 import jumboImg from "../assets/jumbotron.webp";
 export default function Homepage() {
   return (
-    <>
+    <main className="container">
     <div id="jumbotron">
       <img className="jumbotron" src={jumboImg} alt="Jumbotron" />
       </div>
@@ -79,6 +79,6 @@ export default function Homepage() {
           immune alla maggior parte degli attacchi di base.
         </div>
       </div>
-    </>
+    </main>
   );
 }

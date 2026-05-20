@@ -12,7 +12,7 @@ export default function AboutUs() {
         })
     }, [])
     return(
-        <>
+        <main className="container">
         <h1 className="text-center">Il nostro Team: </h1>
         <ul className="row g-4">
         {team.map((member) => (
@@ -26,6 +26,6 @@ export default function AboutUs() {
             </div>
         ))}    
         </ul>
-        </>
+        </main>
     )
 }
