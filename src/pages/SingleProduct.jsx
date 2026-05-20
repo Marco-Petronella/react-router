@@ -14,7 +14,9 @@ export default function SingleProduct() {
 
   const apiUrl = `https://fakestoreapi.com/products/${id}`;
   useEffect(() => {
-    if (id < "1" || id > "20" || id == NaN) { navigate("/products"); return }
+    const checkId = parseInt(id)
+    console.log(checkId);
+    if ((checkId < 1) || (checkId >20)) { navigate("/products"); return }
     setLoading(true);
     fetch(apiUrl)
       .then((response) => response.json())
@@ -26,7 +28,7 @@ export default function SingleProduct() {
       .catch((err) => {
         navigate("/error");
       });
-  }, [apiUrl, navigate]);
+  }, [id, navigate]);
   return (
     <main className="container d-flex justify-content-around">
 
@@ -61,22 +63,22 @@ export default function SingleProduct() {
             </p>
             <div className="d-flex justify-content-between">
               {product.id > 1 ? (
-                <btn
+                <button
                   className="col-4 btn btn-primary btn-sm "
                   onClick={() => navigate(`/singleProduct/${product.id - 1}`)}
                   role="button"
                 >
-                  <i class="bi bi-caret-left-fill"></i> Show previous
-                </btn>
+                  <i className="bi bi-caret-left-fill"></i> Show previous
+                </button>
               ) : ( null )}
               {product.id < 20 ? (
-                <btn
+                <button
                   className="col-4 btn btn-primary btn-sm "
-                  onClick={() => navigate(`/singleProduct/${product.id + 1}`)}
+                  onClick={() => navigate(`/SingleProduct/${product.id + 1}`)}
                   role="button"
                 >
-                  Show next <i class="bi bi-caret-right-fill"></i>
-                </btn>
+                  Show next <i className="bi bi-caret-right-fill"></i>
+                </button>
               ) : ( null )}
             </div>
           </div>

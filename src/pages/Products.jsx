@@ -5,14 +5,7 @@ import { Reuleaux } from "ldrs/react";
 import "ldrs/react/Reuleaux.css";
 
 export default function Products() {
-/*
 
-Bonus
-
-Aggiungiamo una navigazione programmatica che riporti alla pagina di listato se viene cercato un prodotto che non esiste;
-Aggiungiamo una pagina 404;
-Aggiungiamo un loading per caricamento del dettaglio prodotto.
-*/
 
 const apiUrl = "https://fakestoreapi.com/products"
     const [products, setProducts] = useState([]);
@@ -48,7 +41,7 @@ const apiUrl = "https://fakestoreapi.com/products"
                 <h5 className="card-title">{product.title}</h5>
                 <h6 className="card-subtitle mb-2 text-muted ">{product.category}</h6>
                 <p className="card-text">{product.description}</p>
-                <Link className="btn btn-primary btn-sm " to={`/singleProduct/${product.id}`} role="button">Show Details</Link>
+                <Link className="btn btn-primary btn-sm " to={`/SingleProduct/${product.id}`} role="button">Show Details</Link>
               </div>
             </div>
         ))
